@@ -1,7 +1,8 @@
-import Image from "next/image";
+import Navbar from "./components/Navbar";
+import "./globals.css"
 
 export default function Home() {
-  return (
-   <h1>Hii there2</h1> 
-  );
+  return <>
+        <Navbar />
+   </>;
 }
