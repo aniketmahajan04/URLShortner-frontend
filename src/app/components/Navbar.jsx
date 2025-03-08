@@ -4,7 +4,7 @@ function Navbar(){
     return <div className="container
                             bg-blue-500
                             flex
-                            justify-between
+                            justify-around
                             items-center
                             h-18">
         <div>
