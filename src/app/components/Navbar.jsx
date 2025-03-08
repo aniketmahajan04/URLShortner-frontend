@@ -1,16 +1,18 @@
-
+import  Button  from "./Button";
 
 function Navbar(){
-    return <div className="bg-blue-500
+    return <div className="container
+                            bg-blue-500
                             flex
                             justify-between
-                            alight-items
-                            h-8">
+                            items-center
+                            h-18">
         <div>
             <h6 className="text-white">nike</h6>
         </div>
-        <div>
-            {/* <Button /> // create button component */}
+        <div className="flex justify-between m-4">
+            <Button text={"sign-up"} variant={"primary"} />
+            <Button text={"sign-in"} variant={"primary"}/>
         </div>
     </div>
 }
