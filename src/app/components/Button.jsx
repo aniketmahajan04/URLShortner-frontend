@@ -4,11 +4,11 @@ const variantClasses = {
     "secondary": "bg-red-500"
 }
 
-const defaultStyle = "p-2 rounded-md flex items-center"
+conaultStyle = "p-2 rounded-md flex justify-center items-center,"
 
-export default function Button({text, variant}) {
+export default function Button({text, variant, onClick}) {
     return( 
-        <button className={`${variantClasses[variant]} ${defaultStyle}`}>
+        <button className={`${variantClasses[variant]} onClick={onClick:} ${defaultStyle}`}>
             {text}
         </button>   
     );
